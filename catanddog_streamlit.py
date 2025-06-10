@@ -1,6 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-from PIL import image
+from PIL import Image
 import numpy as np
 
 model = keras.models.load_model('CatandDog.h5')
